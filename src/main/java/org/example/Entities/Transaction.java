@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Transaction {
 
-    final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/mm/yyyy");
+    final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     private int id;
     private int amount;

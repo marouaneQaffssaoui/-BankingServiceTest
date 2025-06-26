@@ -49,6 +49,6 @@ public class AccountServiceTest {
     void testPrintStatement(){
         accountService.deposit(1000);
         accountService.printStatement();
-        assertEquals("26/27/2025 || 1000 || 1000", accountService.account.getTransactions().get(0).toString());
+        assertEquals("26/06/2025 || 1000 || 1000", accountService.account.getTransactions().get(0).toString());
     }
 }
